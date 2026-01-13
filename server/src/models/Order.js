@@ -36,6 +36,10 @@ const orderSchema=new mongooseSchema(
                 required:true
             }
         },
+        totalPrice:{
+            type:Number,
+            default:0.00
+        },
         deliveryStatus:{
             type: String,
             enum:["Shipped","Out for Delivery","Delivered","Cancelled"],
