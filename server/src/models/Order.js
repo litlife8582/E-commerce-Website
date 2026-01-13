@@ -1,5 +1,3 @@
-// user ref, orderItems (product ref + qty + price), shippingAddress, paymentInfo, totalPrice, status, timestamps
-
 import mongoose from "mongoose";
 
 const orderSchema=new mongooseSchema(
